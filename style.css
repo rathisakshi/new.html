@@ -1,0 +1,36 @@
+form {
+    margin: 10% 0% 0% 27%;
+    width: 600px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 22%;
+    opacity: 0.9;
+  }
+  body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    position: absolute;
+    padding: 32px;
+    background-color: white;
+  }
+  .bg-img {
+    /* The image used */
+    background-image: url("nature.jpeg");
+  
+    height:100%;
+    width: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
